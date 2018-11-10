@@ -1,5 +1,6 @@
-.background
+body
 {
+	background-image: url(../img/background.jpeg);
 	top: 0;
 	left:0;
 	width: 100%;
@@ -12,7 +13,7 @@ section
 	position:fixed;
 	z-index:2;
 	width:50%;
-	height:35%;
+	height:22%;
 	top:0;
 	left:25%;
 }
@@ -20,11 +21,20 @@ section
 {	
 	background-image: url(../img/companylogoBG.jpg);
 	background-size: 100%;
+	background-position:center left;
 	background-repeat: no-repeat;
 }
 h2
 {
+	margin:0;
+	padding:0;
+	color:white;
 	position:relative;
-	top:17.5%;
-	left:25%;
+	top:25%;
+	left:18%;
+	font-family: Helvetica, sans-serif;
+	font-size: 325%;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+	-webkit-text-stroke:0.04em black;
 }
