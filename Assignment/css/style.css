@@ -28,7 +28,7 @@ h2
 {
 	margin:0;
 	padding:0;
-	color:white;
+	color:#FFFFFF;
 	position:relative;
 	top:25%;
 	left:18%;
@@ -36,5 +36,34 @@ h2
 	font-size: 325%;
 	font-weight: bold;
 	letter-spacing: 0.02em;
-	-webkit-text-stroke:0.04em black;
+	-webkit-text-stroke:0.04em #000000;
 }
+h3
+{
+	padding: 1%;
+	margin:0;
+	width:47.8%;
+	color:white;
+	position: fixed; 
+	background-color: #707070;
+	z-index: 1;
+	top:22%;
+	left:25.2%;
+	background-size: 50%;
+	text-align:center;
+}
+h1
+{
+	padding: 1%;
+	margin:0;
+	width:47.8%;
+	color:white;
+	position: fixed; 
+	background-color: #2699FB;
+	z-index: 1;
+	top:29.8%;
+	left:25.2%;
+	background-size: 50%;
+	text-align:center;
+}
+
