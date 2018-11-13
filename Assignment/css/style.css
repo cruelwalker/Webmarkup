@@ -1,8 +1,6 @@
 *{
 	padding:0;
 	margin:0;
-	top:0;
-	left:0;
 }
 body{
 	position:relative;
@@ -22,7 +20,7 @@ h2{
 	background-image: url(../img/companylogoBG.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center;
 }
 h2{
 	font-family: Helvetica;
@@ -57,4 +55,118 @@ li a {
 /* Change the link color to blue after using hover */
 li a:hover {
     background-color:#2699FB ;
+}
+.entertainment{
+	position: relative;
+	display: flex;
+	width: 58%;
+	margin: auto;
+	color:#FFF;
+	background-color: #2699FB;
+	background-size: cover;
+	font-size: 292%;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	text-decoration: none;
+
+}
+.fEntertainment{
+	position: relative;
+	display: block;
+	margin: auto;
+	max-width: 60%;
+	height: 250px;
+	background-image: url(../img/small/product3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mGames{
+	position: relative;
+	display:block;
+	width: 58%;
+	margin: auto;
+	color:#FFF;
+	background-color: #2699FB;
+	background-size: cover;
+	font-size: 292%;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	text-decoration: none;
+	word-spacing: 5em;
+}
+.fMobile{
+	position: relative;
+	display: block;
+	margin: auto;
+	max-width: 60%;
+	height: 250px;
+	background-image: url(../img/small/product8.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bGames{
+	position: relative;
+	display:block;
+	width: 58%;
+	margin: auto;
+	color:#FFF;
+	background-color: #2699FB;
+	background-size: cover;
+	font-size: 292%;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	text-decoration: none;
+	word-spacing: 5em;
+}
+.fBoard{
+	position: relative;
+	display: block;
+	margin: auto;
+	max-width: 60%;
+	height: 250px;
+	background-image: url(../img/small/product6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cGames{
+	position: relative;
+	display:block;
+	width: 58%;
+	margin: auto;
+	color:#FFF;
+	background-color: #2699FB;
+	background-size: cover;
+	font-size: 292%;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	text-decoration: none;
+	word-spacing: 5em;
+}
+.fConsole{
+	position: relative;
+	display: block;
+	margin: auto;
+	max-width: 60%;
+	height: 250px;
+	background-image: url(../img/small/product9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+footer{
+	position: relative;
+	margin: auto;
+	width: 58%;
+	font-family: Helvetica;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	padding: 1%;
 }
